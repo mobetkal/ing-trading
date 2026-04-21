@@ -1,0 +1,29 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: ing-trading
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ing
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: ing-trading-group
+  flyway:
+    locations: classpath:db/migration
+
+trading:
+  account-id: 123
+
+integrations:
+  external:
+    rest:
+      gpw:
+        url: http://localhost:8080

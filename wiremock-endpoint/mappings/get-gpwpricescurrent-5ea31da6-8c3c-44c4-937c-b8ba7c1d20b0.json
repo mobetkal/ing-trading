@@ -1,0 +1,22 @@
+{
+  "id" : "5ea31da6-8c3c-44c4-937c-b8ba7c1d20b0",
+  "request" : {
+    "url" : "/gpw/prices/current",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "results" : [ {
+        "isin" : "PLBSK0000017",
+        "price" : 314
+      } ]
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "5ea31da6-8c3c-44c4-937c-b8ba7c1d20b0",
+  "persistent" : true,
+  "insertionIndex" : 1
+}

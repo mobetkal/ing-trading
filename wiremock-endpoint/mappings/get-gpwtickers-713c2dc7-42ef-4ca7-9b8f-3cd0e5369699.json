@@ -1,0 +1,25 @@
+{
+  "id" : "713c2dc7-42ef-4ca7-9b8f-3cd0e5369699",
+  "request" : {
+    "url" : "/gpw/tickers",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "results" : [ {
+        "name" : "ING Bank Śląski",
+        "ticker" : "INGBSK",
+        "isin" : "PLBSK0000017",
+        "tradeCurrency" : "PLN",
+        "mic" : "XWAR"
+      } ]
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "713c2dc7-42ef-4ca7-9b8f-3cd0e5369699",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

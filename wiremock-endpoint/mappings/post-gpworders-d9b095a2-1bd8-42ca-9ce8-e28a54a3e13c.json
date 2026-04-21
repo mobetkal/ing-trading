@@ -1,0 +1,22 @@
+{
+  "id" : "d9b095a2-1bd8-42ca-9ce8-e28a54a3e13c",
+  "request" : {
+    "url" : "/gpw/orders",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "orderId" : "{{randomValue length=6 type='NUMERIC'}}",
+      "status" : "Submitted",
+      "registrationTime" : 1762444418
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "d9b095a2-1bd8-42ca-9ce8-e28a54a3e13c",
+  "persistent" : true,
+  "insertionIndex" : 3
+}
